@@ -1,0 +1,28 @@
+# ──────────────────────────────────────────────────────────────
+# SpillSense AI — Python Dependencies
+# ──────────────────────────────────────────────────────────────
+# Install with:  pip install -r requirements.txt
+#
+# Package explanations:
+#   torch             — PyTorch: the deep learning framework
+#   torchvision       — Image utilities and pretrained models
+#   segmentation-models-pytorch — Provides U-Net + ResNet34 architecture
+#   albumentations    — Image augmentation library for training
+#   opencv-python     — Image reading and processing (used by albumentations)
+#   numpy             — Numerical arrays and math operations
+#   matplotlib        — Plotting graphs and visualizations
+#   scikit-learn      — Evaluation metrics (precision, recall, F1)
+#   Pillow            — Python Imaging Library for image I/O
+#   tqdm              — Progress bars for training loops
+# ──────────────────────────────────────────────────────────────
+
+torch>=2.0.0
+torchvision>=0.15.0
+segmentation-models-pytorch>=0.3.3
+albumentations>=1.3.1
+opencv-python>=4.8.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
+Pillow>=10.0.0
+tqdm>=4.65.0

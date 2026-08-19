@@ -1,0 +1,26 @@
+# ── Large files (exceed GitHub's 100MB limit) ──
+dataset_download.zip
+models/best_model.pth
+
+# ── Dataset (too large for GitHub, users download separately) ──
+dataset/
+
+# ── Generated outputs (reproducible, no need to track) ──
+outputs/
+logs/
+
+# ── Python cache ──
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ── IDE / OS files ──
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
